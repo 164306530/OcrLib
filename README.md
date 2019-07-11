@@ -3,9 +3,9 @@ b4a项目Ocr识别控件
 
 #使用:
 
-#Dim avocr As OcrLib
+Dim avocr As OcrLib
 
-#avocr.Initialize("avocr")
+avocr.Initialize("avocr")
 
 #avocr.startDetection
 
