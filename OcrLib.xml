@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <doclet-version-NOT-library-version>1.07</doclet-version-NOT-library-version>
+    <class>
+        <name>trawrapper.traWrapper</name>
+        <shortname>OcrLib</shortname>
+        <objectwrapper>com.tuts.prakash.simpleocr.MainActivity</objectwrapper>
+        <owner>activity</owner>
+        <permission>android.permission.CAMERA</permission>
+        <method>
+            <name>startDetection</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>IsInitialized</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>Initialize</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>paramBA</name>
+                <type>anywheresoftware.b4a.BA</type>
+            </parameter>
+            <parameter>
+                <name>paramString</name>
+                <type>java.lang.String</type>
+            </parameter>
+        </method>
+    </class>
+    <version>1.0</version>
+    <dependsOn>com.android.support:support-annotations</dependsOn>
+    <dependsOn>com.android.support:support-v4</dependsOn>
+    <dependsOn>com.android.support:appcompat-v7</dependsOn>
+    <dependsOn>com.google.android.gms:play-services-vision</dependsOn>
+</root>
